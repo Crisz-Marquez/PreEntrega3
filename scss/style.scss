@@ -1,0 +1,18 @@
+// Reset
+@import "./normalize/reset";
+// Fonts
+@import "./components/font-face";
+// Components - navbar
+@import "./components/navbar";
+// Layout - menu principal
+@import "./components/main";
+// components - sections
+@import "./components/sections";
+// components - articles
+@import "./components/articles";
+// Layout - Carrusel
+@import "./components/carrusel";
+// Layout - Footer
+@import "./components/footer";
+// views - Media Queries
+@import "./views/queries";
