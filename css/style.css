@@ -112,7 +112,7 @@
 }
 
 .main {
-  background-image: url(/assets/images/fondo-main-sec1.jpg);
+  background-image: url(/assets/images/fondo-main.webp);
   height: 100vh;
   border: 1px solid black;
   display: flex;
@@ -136,8 +136,8 @@
 
 .sec1 {
   background-image: radial-gradient(circle, #00255d, #002254, #001c46);
-  height: 47vh;
-  box-shadow: 0px 0px 10px 1px rgb(7, 0, 78);
+  height: 55vh;
+  box-shadow: 0px 0px 10px 1px rgb(3, 0, 40);
   font-family: "Comfortaa", cursive;
 }
 .sec1 .main__sec1 {
@@ -161,7 +161,7 @@
 .article {
   background-image: radial-gradient(circle, #001739, #001637, #00132f);
   height: 35vh;
-  box-shadow: 0px 0px 10px 1px rgb(4, 0, 54);
+  box-shadow: 0px 0px 10px rgb(2, 0, 34);
   font-family: "Comfortaa", cursive;
 }
 .article .article__info {
@@ -193,7 +193,7 @@
 /* Fin - Menu Carrusel */
 .footer {
   background-image: radial-gradient(circle, #001739, #001637, #00132f);
-  height: 70vh;
+  height: 90vh;
   box-shadow: 0px 0px 20px rgb(3, 0, 27);
   font-family: "Montserrat-SemiBold";
 }
