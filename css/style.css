@@ -12,15 +12,14 @@ html {
 
 .body {
   font-family: "Raleway", sans-serif;
-  /* font-family: "Montserrat-SemiBold";
-  src: url("/assets/fonts/webfonts/Montserrat-Regular.otf"); */
-} 
+  font-family: "Montserrat-SemiBold";
+  src: url("/assets/fonts/webfonts/Montserrat-Regular.otf");
+}
 
 @font-face {
   font-family: "Montserrat-SemiBold";
-  src: url("/assets/fonts/webfonts/Montserrat-ExtraLight.otf");
+  src: url("/assets/fonts/webfonts/Montserrat-Regular.otf");
 }
-
 .header {
   position: fixed;
   width: 100%;
@@ -122,7 +121,7 @@ html {
 }
 
 .main {
-  background-image: url("/o5IqewP.jpeg");
+  background-image: url("./o5IqewP.jpeg");
   height: 100vh;
   display: flex;
   justify-content: center;
