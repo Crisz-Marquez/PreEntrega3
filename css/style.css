@@ -4,16 +4,24 @@
   margin: 0;
 }
 
-.body {
-  font-family: "Comfortaa", cursive;
-  font-family: "Montserrat-Alt1", sans-serif;
-  font-weight: 400;
+html {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
+.body {
+  font-family: "Raleway", sans-serif;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("/assets/fonts/webfonts/Montserrat-Light-Alt1.woff2");
+}
 .header {
   position: fixed;
   width: 100%;
-  font-family: "Montserrat-Alt1", sans-serif;
+  font-family: "Montserrat-SemiBold";
   font-weight: 400;
 }
 
@@ -43,8 +51,8 @@
 }
 
 .navbar-brand:hover {
-  color: white;
-  text-shadow: 0px 0px 15px white;
+  color: rgb(0, 149, 255);
+  text-shadow: 0px 0px 15px rgb(0, 149, 255);
 }
 
 .navbar-brand:focus {
@@ -95,7 +103,6 @@
   display: inline-block;
   color: white;
   font-size: 1.2rem;
-  border-bottom: 1px solid white;
   padding: 0px;
   margin: 0px;
   padding-top: 10px;
@@ -104,6 +111,7 @@
 .nav-link:hover {
   color: white;
   text-shadow: 0px 0px 10px white;
+  border-bottom: 1px solid white;
 }
 
 .nav-link:focus {
@@ -111,13 +119,13 @@
 }
 
 .main {
-  background-image: url(/assets/images/menuwhite.jpg);
+  background-image: url(/assets/images/fondo-main.webp);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-family: "Montserrat-Alt1", sans-serif;
+  font-family: "Montserrat-SemiBold";
   font-weight: 400;
 }
 
@@ -137,7 +145,7 @@
   background-image: radial-gradient(circle, #00255d, #002254, #001c46);
   height: 55vh;
   box-shadow: 0px 0px 10px 1px rgb(3, 0, 40);
-  font-family: "Comfortaa", cursive;
+  font-family: "Raleway", sans-serif;
 }
 .sec1 .main__sec1 {
   height: 100%;
@@ -160,8 +168,8 @@
 .article {
   background-image: radial-gradient(circle, #001739, #001637, #00132f);
   height: 35vh;
-  box-shadow: 0px 0px 10px rgb(2, 0, 34);
-  font-family: "Comfortaa", cursive;
+  box-shadow: 0px 0px 10px 1px rgb(3, 0, 40);
+  font-family: "Raleway", sans-serif;
 }
 .article .article__info {
   height: 100%;
@@ -192,9 +200,9 @@
 /* Fin - Menu Carrusel */
 .footer {
   background-image: radial-gradient(circle, #001739, #001637, #00132f);
-  height: 90vh;
+  height: auto;
   box-shadow: 0px 0px 20px rgb(3, 0, 27);
-  font-family: "Montserrat-Alt1", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
 
@@ -205,6 +213,7 @@
   text-align: center;
   padding-top: 28px;
   margin-bottom: 20px;
+  font-family: "Montserrat-SemiBold";
 }
 
 .footer__tittle h3 {
@@ -224,7 +233,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Comfortaa", cursive;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -258,14 +266,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Comfortaa", cursive;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .footer__redes h5 {
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
 }
 
 .redes__icons {
@@ -278,6 +286,7 @@
 .footer__redes h6 {
   color: white;
   font-size: 0.9rem;
+  padding-bottom: 30px;
 }
 
 .footer__redes i {
@@ -346,40 +355,45 @@
     margin: 0px;
     padding: 20px 40px;
   }
+  .nav__container .navbar-brand {
+    font-size: 1.6rem;
+    padding-bottom: 4px;
+  }
+  .nav__container .nav-link {
+    font-size: 1.3rem;
+  }
   .main {
     background-size: cover;
   }
-  .main .main__tittleh1 {
+  .main .main__tittle h1 {
     font-size: 5rem;
   }
-  .main .main__tittleh3 {
+  .main .main__tittle h3 {
     font-size: 3rem;
   }
   .sec1 {
-    background-image: radial-gradient(circle, #00255d, #002254, #001c46);
     height: 55vh;
-    box-shadow: 0px 0px 10px 1px rgb(3, 0, 40);
-    font-family: "Comfortaa", cursive;
   }
   .sec1 .main__sec1 {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 0px 100px 0px 100px;
   }
   .sec1 .main__sec1 h3 {
-    font-size: 1.7rem;
-    color: white;
-    padding-left: 15px;
-    text-shadow: 0px 0px 5px rgb(0, 98, 245);
+    font-size: 4rem;
   }
   .sec1 .main__sec1 h4 {
-    color: white;
-    font-size: 0.9rem;
+    font-size: 1.6rem;
     padding: 10px 20px;
+    letter-spacing: 1px;
+  }
+  .article .article__info h4 {
+    font-size: 3rem;
+  }
+  .article .article__info h5 {
+    font-size: 1.3rem;
+    padding: 0px 150px 0px 150px;
   }
   .footer {
-    height: 60vh;
+    height: auto;
   }
   .footer__tittle h3 {
     font-size: 2.3rem;
@@ -407,12 +421,12 @@
   .footer__ubicacion h5 {
     display: inline-block;
     font-size: 1.6rem;
-    text-shadow: 0px 0px 5px white;
+    text-shadow: 0px 0px 2px white;
   }
   .footer__ubicacion h6 {
     display: inline-block;
     font-size: 1.4rem;
-    text-shadow: 0px 0px 5px white;
+    text-shadow: 0px 0px 2px white;
   }
   .footer__ubicacion iframe {
     width: 380px;

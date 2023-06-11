@@ -1,8 +1,8 @@
 .footer {
     background-image: radial-gradient(circle, #001739, #001637, #00132f);
-    height: 90vh;
+    height: auto;
     box-shadow: 0px 0px 20px rgb(3, 0, 27);
-    font-family: 'Montserrat-Alt1', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
 
@@ -13,6 +13,7 @@
     text-align: center;
     padding-top: 28px;
     margin-bottom: 20px;
+    font-family: "Montserrat-SemiBold";
 }
 
 .footer__tittle h3 {
@@ -32,7 +33,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Comfortaa', cursive;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -66,14 +66,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Comfortaa', cursive;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .footer__redes h5 {
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
 }
 
 .redes__icons {
@@ -86,6 +86,7 @@
 .footer__redes h6 {
     color: white;
     font-size: 0.9rem;
+    padding-bottom: 30px;
 }
 
 .footer__redes i {

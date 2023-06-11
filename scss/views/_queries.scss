@@ -55,23 +55,35 @@
     // Inicio - Navbar 
 
      .nav__container {
+
         margin: 0px;
         padding: 20px 40px;
-    }
 
+        .navbar-brand {
+            font-size: 1.6rem;
+            padding-bottom: 4px;
+        }
+
+        .nav-link {
+            font-size: 1.3rem;
+        }
+
+    }
+    
     // Fin - Navbar
 
     // Inicio - Menu Principal
+
     .main {
         background-size: cover;
 
         .main__tittle {
         
-            &h1 {
+            & h1 {
                 font-size: 5rem;
             }
     
-            &h3 {
+            & h3 {
                 font-size: 3rem;
             }
     
@@ -82,38 +94,51 @@
     // Fin - Menu Principal
 
     // Inicio - Section
+
     .sec1 {
-        background-image: radial-gradient(circle, #00255d, #002254, #001c46);
         height: 55vh;
-        box-shadow: 0px 0px 10px 1px rgb(3, 0, 40);
-        font-family: 'Comfortaa', cursive;
     
         .main__sec1 {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            
+            padding: 0px 100px 0px 100px;
     
             & h3 {
-                font-size: 1.7rem;
-                color: white;
-                padding-left: 15px;
-                text-shadow: 0px 0px 5px rgb(0, 98, 245);
+                font-size: 4rem;
             }
     
             & h4 {
-                color: white;
-                font-size: 0.9rem;
+                font-size: 1.6rem;
                 padding: 10px 20px;
+                letter-spacing: 1px;
             }
         }
     }
-    // Fin - Section
+
+    // Fin - Sections
+
+    // Inicio - Article 
+
+    .article {
+    
+        .article__info {
+
+            & h4 {
+            font-size: 3rem;
+            }
+    
+            & h5 {
+            font-size: 1.3rem;
+            padding: 0px 150px 0px 150px;
+            }
+        }
+    }
+
+    // Fin - Article
 
     // Inicio Footer 
 
     .footer {
-        height: 60vh;
+        height: auto;
     }
 
     .footer__tittle h3 {
@@ -148,13 +173,13 @@
     .footer__ubicacion h5 {
         display: inline-block;
         font-size: 1.6rem;
-        text-shadow: 0px 0px 5px white;
+        text-shadow: 0px 0px 2px white;
     }
 
     .footer__ubicacion h6 {
         display: inline-block;
         font-size: 1.4rem;
-        text-shadow: 0px 0px 5px white;
+        text-shadow: 0px 0px 2px white;
     }
 
     .footer__ubicacion iframe {
