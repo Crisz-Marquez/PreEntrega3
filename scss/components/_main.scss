@@ -1,22 +1,25 @@
 .main {
-    background-image: url("./o5IqewP.jpeg");
+    background-image: url("/assets/images/fondo-menu.jpg");
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "Montserrat-SemiBold";
+    font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
 }
 
 .main__tittle h1 {
     font-size: 1.9rem;
+    font-weight: bold;
     color: rgb(36, 209, 252);
     text-shadow: 0px 0px 60px rgb(0, 88, 221);
 }
 
 .main__tittle h3 {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 1px;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 60px rgb(250, 250, 250);
 }
