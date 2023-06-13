@@ -1,8 +1,10 @@
 .header {
     position: fixed;
+    z-index: 5;
     width: 100%;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 400;
+    opacity: 0.900;
 }
 
 .navbar {
@@ -17,7 +19,7 @@
 
 .container-fluid {
     background-color: #060920;
-    box-shadow: 0px 0px 15px rgb(0, 0, 107);
+    box-shadow: 0px 0px 5px rgb(1, 0, 85);
     border-radius: 10px;
     padding: 10px;
 }
@@ -25,7 +27,7 @@
 .navbar-brand {
     font-size: 1.4rem;
     color: rgb(36, 209, 252);
-    text-shadow: 0px 0px 60px rgb(0, 88, 221);
+    text-shadow: 0px 0px 60px rgb(0, 100, 250);
     padding-left: 10px;
     padding-bottom: 0px;
 }
@@ -83,6 +85,8 @@
     display: inline-block;
     color: white;
     font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: 0px 0px 3px rgb(182, 182, 182);
     padding: 0px;
     margin: 0px;
     padding-top: 10px;

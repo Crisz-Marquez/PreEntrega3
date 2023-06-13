@@ -12,19 +12,16 @@ html {
 
 .body {
   font-family: "Raleway", sans-serif;
-  font-family: "Montserrat-SemiBold";
-  src: url("/assets/fonts/webfonts/Montserrat-Regular.otf");
+  position: absolute;
 }
 
-@font-face {
-  font-family: "Montserrat-SemiBold";
-  src: url("/assets/fonts/webfonts/Montserrat-Regular.otf");
-}
 .header {
   position: fixed;
+  z-index: 5;
   width: 100%;
   font-family: "Julius Sans One", sans-serif;
   font-weight: 400;
+  opacity: 0.9;
 }
 
 .navbar {
@@ -39,7 +36,7 @@ html {
 
 .container-fluid {
   background-color: #060920;
-  box-shadow: 0px 0px 15px rgb(0, 0, 107);
+  box-shadow: 0px 0px 5px rgb(1, 0, 85);
   border-radius: 10px;
   padding: 10px;
 }
@@ -47,7 +44,7 @@ html {
 .navbar-brand {
   font-size: 1.4rem;
   color: rgb(36, 209, 252);
-  text-shadow: 0px 0px 60px rgb(0, 88, 221);
+  text-shadow: 0px 0px 60px rgb(0, 100, 250);
   padding-left: 10px;
   padding-bottom: 0px;
 }
@@ -105,6 +102,8 @@ html {
   display: inline-block;
   color: white;
   font-size: 1.2rem;
+  font-weight: 500;
+  text-shadow: 0px 0px 3px rgb(182, 182, 182);
   padding: 0px;
   margin: 0px;
   padding-top: 10px;
@@ -121,8 +120,9 @@ html {
 }
 
 .main {
-  background-image: url("/assets/images/fondo-menu.jpg");
+  background-image: url("/assets/images/fondo2.jpg");
   background-size: cover;
+  width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -147,10 +147,10 @@ html {
 }
 
 .sec1 {
-  background-image: radial-gradient(circle, #00255d, #002254, #001c46);
+  background-color: rgb(4, 0, 17);
   height: 55vh;
-  box-shadow: 0px 0px 10px 1px rgb(3, 0, 40);
   font-family: "Raleway", sans-serif;
+  box-shadow: 0px 0px 100px 40px rgb(4, 0, 17);
 }
 .sec1 .main__sec1 {
   height: 100%;
@@ -162,19 +162,22 @@ html {
   font-size: 1.7rem;
   color: white;
   padding-left: 15px;
-  text-shadow: 0px 0px 5px rgb(0, 98, 245);
+  text-shadow: 0px 0px 3px rgb(253, 253, 253);
 }
 .sec1 .main__sec1 h4 {
   color: white;
   font-size: 0.9rem;
   padding: 10px 20px;
+  text-shadow: 0px 0px 3px rgb(255, 255, 255);
 }
 
 .article {
-  background-image: radial-gradient(circle, #001739, #001637, #00132f);
+  background-image: radial-gradient(circle, #001027, #000e22, #000c1d);
   height: 35vh;
   box-shadow: 0px 0px 10px 1px rgb(3, 0, 40);
   font-family: "Raleway", sans-serif;
+  position: relative;
+  z-index: 3;
 }
 .article .article__info {
   height: 100%;
@@ -183,6 +186,7 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
+  box-shadow: 0px 0px 20px rgb(17, 0, 114);
 }
 .article .article__info h4 {
   font-size: 1.3rem;
@@ -271,8 +275,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding: 10px;
 }
 
 .footer__redes h5 {
@@ -677,31 +680,38 @@ html {
     background-size: cover;
   }
   .main .main__tittle h1 {
-    font-size: 5rem;
+    font-size: 4.6rem;
   }
   .main .main__tittle h3 {
     font-size: 3rem;
   }
   .sec1 {
-    height: 55vh;
+    height: 65vh;
   }
   .sec1 .main__sec1 {
-    padding: 0px 100px 0px 100px;
+    padding: 150px;
   }
   .sec1 .main__sec1 h3 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
   .sec1 .main__sec1 h4 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     padding: 10px 20px;
     letter-spacing: 1px;
   }
-  .article .article__info h4 {
+  .sec1 .main__sec1 .main__text {
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgb(17, 0, 114);
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .container__article .article .article__info h4 {
     font-size: 3rem;
   }
-  .article .article__info h5 {
+  .container__article .article .article__info h5 {
     font-size: 1.3rem;
-    padding: 0px 150px 0px 150px;
+    padding: 0px 300px 0px 300px;
   }
   .footer {
     height: auto;
