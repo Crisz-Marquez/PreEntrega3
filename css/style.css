@@ -685,26 +685,25 @@ html {
   .main .main__tittle h3 {
     font-size: 3rem;
   }
-  .sec1 {
-    height: 65vh;
+  .main__sec1-grid .sec1 {
+    height: 100vh;
   }
-  .sec1 .main__sec1 {
+  .main__sec1-grid .sec1 .main__sec1 {
     padding: 150px;
   }
-  .sec1 .main__sec1 h3 {
+  .main__sec1-grid .sec1 .main__sec1 h3 {
     font-size: 3.5rem;
   }
-  .sec1 .main__sec1 h4 {
-    font-size: 1.2rem;
+  .main__sec1-grid .sec1 .main__sec1 h4 {
+    font-size: 1.5rem;
     padding: 10px 20px;
     letter-spacing: 1px;
   }
-  .sec1 .main__sec1 .main__text {
-    padding: 50px;
+  .main__sec1-grid .sec1 .main__sec1 .main__text {
+    background-color: rgb(4, 0, 26);
+    padding: 100px 50PX;
     border-radius: 50px;
     box-shadow: 0px 0px 20px rgb(17, 0, 114);
-    margin-bottom: 100px;
-    margin-top: 100px;
   }
   .container__article .article .article__info h4 {
     font-size: 3rem;
@@ -774,6 +773,8 @@ html {
   .footer .container__redes .footer__redes .redes__icons a {
     display: flex;
     flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .footer .container__redes .footer__redes .redes__icons i {
     font-size: 1.4rem;
@@ -785,10 +786,6 @@ html {
     height: 60px;
     box-shadow: 0px 0px 15px rgb(255, 255, 255);
     font-size: 1.6rem;
-  }
-  .footer .container__redes .footer__redes a {
-    padding-left: 30px;
-    padding-right: 30px;
   }
   .footer .container__redes .footer__redes h6 {
     color: white;

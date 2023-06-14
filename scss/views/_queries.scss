@@ -537,32 +537,36 @@
 
     // Inicio - Section
 
-    .sec1 {
-        height: 65vh;
+    .main__sec1-grid {
+        
+        .sec1 {
+            height: 100vh;
+        
+            .main__sec1 {
+                padding: 150px;
     
-        .main__sec1 {
-            padding: 150px;
-
-            & h3 {
-                font-size: 3.5rem;
-            }
+                & h3 {
+                    font-size: 3.5rem;
+                }
+        
+                & h4 {
+                    font-size: 1.5rem;
+                    padding: 10px 20px;
+                    letter-spacing: 1px;
+                }
     
-            & h4 {
-                font-size: 1.2rem;
-                padding: 10px 20px;
-                letter-spacing: 1px;
+                .main__text {
+                    background-color: rgb(4, 0, 26);
+                    padding: 100px 50PX;
+                    border-radius: 50px ;
+                    box-shadow: 0px 0px 20px rgb(17, 0, 114);
+                    
+                }
+                
             }
-
-            .main__text {
-                padding: 50px;
-                border-radius: 50px ;
-                box-shadow: 0px 0px 20px rgb(17, 0, 114);
-                margin-bottom: 100px;
-                margin-top: 100px;
-            }
-            
-        }
+        }    
     }
+    
 
     // Fin - Sections
 
@@ -657,7 +661,7 @@
                     font-size: 1.6rem;
                     text-shadow: 0px 0px 2px rgb(255, 255, 255);
                 }
-
+                
                 .redes__icons {
                     margin-top: 15px;
                     margin-bottom: 30px;
@@ -665,6 +669,8 @@
                     & a {
                         display: flex;
                         flex-direction: row;
+                        padding-left: 30px;
+                        padding-right: 30px;
                     }
 
                     & i {
@@ -681,18 +687,15 @@
                     }
                 }
 
-                & a {
-                    padding-left: 30px;
-                    padding-right: 30px;
-                }
-
                 & h6 {
                     color: white;
                     font-family: 'Raleway', sans-serif;
                     font-size: 1.6rem;
                     text-shadow: 0px 0px 2px rgb(255, 255, 255);
                 }
+                
             }
-        }
+        }        
+        
     }
 }
