@@ -7,7 +7,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     margin: 0px;
-    height: 80vh;
+    height: 75vh;
 
     .footer__tittle {
         display: flex;
@@ -51,7 +51,7 @@
             padding-bottom: 10px;
         }
 
-        .footer__ubicacion iframe {
+        & iframe {
             margin: 0px;
             width: 280px;
             height: 190px;

@@ -1,29 +1,666 @@
 @media screen and (min-width: 600px) {
 
-    .sec1__tittle h1 {
-        font-size: 2.4rem;
+    // Inicio - Navbar 
+    .nav__container {
+        margin: 0px;
+        padding: 20px 40px;
+ 
+        .navbar-brand {
+            font-size: 1.6rem;
+            padding-bottom: 4px;
+        }
+ 
+        .nav-link {
+            font-size: 1.3rem;
+        }
     }
+    // Fin - Navbar
 
-    .sec1__tittle h3 {
-        font-size: 1.6rem;
+    // Inicio - Menu Principal
+    .main {
+        background-size: cover;
+ 
+        .main__tittle {
+        
+            & h1 {
+                font-size: 2.3rem;
+            }
+    
+            & h3 {
+                font-size: 1.3rem;
+            }
+        }
+    }   
+    // Fin - Menu Principal
+
+    // Inicio - Section
+    .main__sec1-grid {
+       
+        .sec1 {
+            height: 70vh;
+        
+            .main__sec1 {
+    
+                & h3 {
+                    font-size: 1.8rem;
+                    margin: 0px;
+                }
+        
+                & h4 {
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    margin: 0;
+                }
+            }
+        }    
     }
+    // Fin - Sections
 
+    // Inicio - Article 
+   .container__article {
+
+    .article {
+        height: 30vh;
+
+        .article__info {    
+            & h4 {
+            font-size: 1.5rem;
+            margin: 0px;
+            }
+    
+            & h5 {
+            font-size: 0.9rem;
+            margin: 0px;
+                }
+            }
+        }
+    }
+    // Fin - Article
+
+    // Inicio - Footer
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+ 
+        .footer__tittle {
+            padding: 0px;
+            & h3 {
+                font-size: 1.5rem;
+            }
+ 
+            & h5 {
+                font-size: 0.8rem;
+            }
+        }
+
+        .footer__ubicacion {
+        
+            & h5 {
+            font-size: 1.1rem;
+            }
+
+            & iframe {
+                width: 320px;
+                height: 200px;
+                box-shadow: 0px 0px 5px white;
+            }
+
+            & h6 {
+                display: inline-block;
+                font-size: 1rem;
+                padding-top: 10px;
+            }
+        }
+
+        .footer__redes {
+            padding: 0px;
+
+            & h5 {
+                font-size: 1.2rem;
+            }
+
+            & h6 {
+                font-size: 1.2rem;
+            }  
+            
+            .redes__icons {
+
+                & a {
+                    display: flex;
+                    flex-direction: row;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+
+                & i {
+                    font-size: 1.2rem;
+                    width: 45px;
+                    height: 45px;
+                }
+
+                & i:hover {
+                    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+                    font-size: 1.4rem;
+                }
+            
+            }
+        }
+
+    }
 }
 
 @media screen and (min-width: 768px) {
 
+        // Inicio - Navbar 
+    .nav__container {
+        margin: 0px;
+        padding: 20px 40px;
+ 
+        .navbar-brand {
+            font-size: 1.6rem;
+            padding-bottom: 4px;
+        }
+ 
+        .nav-link {
+            font-size: 1.3rem;
+        }
+    }
+    // Fin - Navbar
+
+    // Inicio - Menu Principal
+    .main {
+        background-size: cover;
+ 
+        .main__tittle {
+        
+            & h1 {
+                font-size: 2.5rem;
+            }
     
+            & h3 {
+                font-size: 1.6rem;
+            }
+        }
+    }   
+    // Fin - Menu Principal
+
+    // Inicio - Section
+    .main__sec1-grid {
+       
+        .sec1 {
+            height: 70vh;
+            padding-left: 20px;
+            padding-right: 20px;
+        
+            .main__sec1 {
+    
+                & h3 {
+                    font-size: 1.8rem;
+                    margin: 0px;
+                }
+        
+                & h4 {
+                    font-size: 1.1rem;
+                    letter-spacing: 1px;
+                    margin: 0;
+                }
+            }
+        }    
+    }
+    // Fin - Sections
+
+    // Inicio - Article 
+   .container__article {
+
+    .article {
+        height: 30vh;
+        
+        .article__info {    
+            & h4 {
+            font-size: 1.7rem;
+            margin: 0px;
+            }
+    
+            & h5 {
+            font-size: 1rem;
+            margin: 0px;
+                }
+            }
+        }
+    }
+    // Fin - Article
+
+    // Inicio - Footer
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 75vh;
+ 
+        .footer__tittle {
+            padding: 0px;
+
+            & h3 {
+                font-size: 1.6rem;
+            }
+ 
+            & h5 {
+                font-size: 0.9rem;
+            }
+        }
+
+        .footer__ubicacion {
+        
+            & h5 {
+            font-size: 1.2rem;
+            }
+
+            & iframe {
+                width: 320px;
+                height: 200px;
+                box-shadow: 0px 0px 5px white;
+            }
+
+            & h6 {
+                font-size: 1.2rem;
+                padding-top: 10px;
+            }
+        }
+
+        .footer__redes {
+            padding: 0px;
+
+            & h5 {
+                font-size: 1.2rem;
+            }
+
+            & h6 {
+                font-size: 1.2rem;
+            }  
+            
+            .redes__icons {
+
+                & a {
+                    display: flex;
+                    flex-direction: row;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+
+                & i {
+                    font-size: 1.2rem;
+                    width: 45px;
+                    height: 45px;
+                }
+
+                & i:hover {
+                    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+                    font-size: 1.4rem;
+                }
+            
+            }
+        }
+
+    }
 }
 
 @media screen and (min-width: 950px) {
 
+    // Inicio - Navbar 
+    .nav__container {
+        margin: 0px;
+        padding: 20px 40px;
     
+        .navbar-brand {
+            font-size: 1.6rem;
+            padding-bottom: 4px;
+        }
+    
+        .nav-link {
+            font-size: 1.3rem;
+        }
+    }
+    // Fin - Navbar
+
+    // Inicio - Menu Principal
+    .main {
+        background-size: cover;
+    
+        .main__tittle {
+        
+            & h1 {
+                font-size: 2.7rem;
+            }
+    
+            & h3 {
+                font-size: 1.8rem;
+            }
+        }
+    }   
+    // Fin - Menu Principal
+
+    // Inicio - Section
+    .main__sec1-grid {
+        
+        .sec1 {
+            height: 70vh;
+            padding-left: 30px;
+            padding-right: 30px;
+        
+            .main__sec1 {
+    
+                & h3 {
+                    font-size: 1.8rem;
+                    margin: 0px;
+                }
+        
+                & h4 {
+                    font-size: 1.2rem;
+                    letter-spacing: 1px;
+                    margin: 0;
+                }
+            }
+        }    
+    }
+    // Fin - Sections
+
+    // Inicio - Article 
+    .container__article {
+
+    .article {
+        height: 30vh;
+        
+        .article__info {    
+            & h4 {
+            font-size: 1.8rem;
+            margin: 0px;
+            }
+    
+            & h5 {
+            font-size: 1.2rem;
+            margin: 0px;
+                }
+            }
+        }
+    }
+    // Fin - Article
+
+    // Inicio - Footer
+    .footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 80vh;
+    
+        .footer__tittle {
+            padding: 0px;
+
+            & h3 {
+                font-size: 1.7rem;
+            }
+    
+            & h5 {
+                font-size: 1rem;
+            }
+        }
+
+        .footer__ubicacion {
+        
+            & h5 {
+            font-size: 1.3rem;
+            }
+
+            & iframe {
+                width: 320px;
+                height: 200px;
+                box-shadow: 0px 0px 10px white;
+            }
+
+            & h6 {
+                font-size: 1.3rem;
+                padding-top: 10px;
+            }
+        }
+
+        .footer__redes {
+            padding: 0px;
+
+            & h5 {
+                font-size: 1.3rem;
+            }
+
+            & h6 {
+                font-size: 1.3rem;
+            }  
+            
+            .redes__icons {
+
+                & a {
+                    display: flex;
+                    flex-direction: row;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                }
+
+                & i {
+                    font-size: 1.2rem;
+                    width: 45px;
+                    height: 45px;
+                }
+
+                & i:hover {
+                    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+                    font-size: 1.4rem;
+                }
+            
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: 1050px) {
+
+    // Inicio - Navbar 
+    .nav__container {
+       margin: 0px;
+       padding: 20px 40px;
+
+       .navbar-brand {
+           font-size: 1.6rem;
+           padding-bottom: 4px;
+       }
+
+       .nav-link {
+           font-size: 1.3rem;
+       }
+   }
+   // Fin - Navbar
+
+   // Inicio - Menu Principal
+   .main {
+       background-size: cover;
+
+       .main__tittle {
+       
+           & h1 {
+               font-size: 3.4rem;
+           }
+   
+           & h3 {
+               font-size: 2.1rem;
+           }
+       }
+   }   
+   // Fin - Menu Principal
+
+   // Inicio - Section
+   .main__sec1-grid {
+       
+       .sec1 {
+           height: 90vh;
+       
+           .main__sec1 {
+               padding: 50px;
+   
+               & h3 {
+                   font-size: 2.3rem;
+               }
+       
+               & h4 {
+                   font-size: 1.2rem;
+                   padding: 10px 20px;
+                   letter-spacing: 1px;
+               }
+   
+               .main__text {
+                   background-color: rgb(4, 0, 26);
+                   padding: 70px 50px;
+                   border-radius: 50px ;
+                   box-shadow: 0px 0px 20px rgb(17, 0, 114);
+               }
+           }
+       }    
+   }
+   // Fin - Sections
+
+   // Inicio - Article 
+   .container__article {
+
+       .article {
+
+           .article__info {    
+               & h4 {
+               font-size: 2rem;
+               padding-bottom: 5px;
+               }
+       
+               & h5 {
+               font-size: 1.2rem;
+               padding: 0px 200px 0px 200px;
+               }
+           }
+       }
+   }
+   // Fin - Article
+
+   // Inicio Footer 
+   .footer {
+       height: 60vh;
+
+       .footer__tittle {
+           & h3 {
+               font-size: 2rem;
+           }
+
+           & h5 {
+               font-size: 0.9rem;
+           }
+
+       }
+      
+       .footer__container {
+           display: flex;
+           justify-content:space-around;
+           flex-direction: row-reverse;
+           width: 100%;
+       
+           .container__ubicacion {
+           display: inline;
+           
+               .footer__ubicacion {
+                   justify-content: center;
+                   align-items: center;
+               
+                   & h5 {
+                   display: inline-block;
+                   font-size: 1.3rem;
+                   }
+
+                   & iframe {
+                       width: 320px;
+                       height: 200px;
+                       margin-top: 3px;
+                       margin-bottom: 20px;
+                       box-shadow: 0px 0px 5px white;
+                   }
+
+                   & h6 {
+                       display: inline-block;
+                       font-size: 1.2rem;
+                   }
+               }
+           }
+       }
+   
+       .container__redes {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+           flex-direction: column;
+           height: 100%;
+       
+           .footer__redes {
+               display: flex;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+               height: 30vh;
+               text-align: center;
+
+
+               & h5 {
+                   color: white;
+                   font-family: 'Raleway', sans-serif;
+                   font-size: 1.3rem;
+                   text-shadow: 0px 0px 2px rgb(255, 255, 255);
+               }
+
+               & h6 {
+                   color: white;
+                   font-family: 'Raleway', sans-serif;
+                   font-size: 1.2rem;
+                   text-shadow: 0px 0px 2px rgb(255, 255, 255);
+               }  
+               
+               .redes__icons {
+                   margin-top: 15px;
+                   margin-bottom: 30px;
+
+                   & a {
+                       display: flex;
+                       flex-direction: row;
+                       padding-left: 25px;
+                       padding-right: 25px;
+                   }
+
+                   & i {
+                       font-size: 1.2rem;
+                       width: 45px;
+                       height: 45px;
+                   }
+
+                   & i:hover {
+                       box-shadow: 0px 0px 10px rgb(255, 255, 255);
+                       font-size: 1.4rem;
+                   }
+               }
+           }
+       }        
+   }
+   // Fin - Footer
 }
 
 @media screen and (min-width: 1200px) {
 
-     // Inicio - Navbar 
 
+     // Inicio - Navbar 
      .nav__container {
         margin: 0px;
         padding: 20px 40px;
@@ -36,44 +673,37 @@
         .nav-link {
             font-size: 1.3rem;
         }
-
     }
-    
     // Fin - Navbar
 
     // Inicio - Menu Principal
-
     .main {
         background-size: cover;
 
         .main__tittle {
         
             & h1 {
-                font-size: 3.7rem;
+                font-size: 3.4rem;
             }
     
             & h3 {
-                font-size: 2.3rem;
+                font-size: 2rem;
             }
-    
         }
-
     }   
-
     // Fin - Menu Principal
 
     // Inicio - Section
-
     .main__sec1-grid {
         
         .sec1 {
             height: 100vh;
         
             .main__sec1 {
-                padding: 120px;
+                padding: 90px;
     
                 & h3 {
-                    font-size: 3rem;
+                    font-size: 2.7rem;
                 }
         
                 & h4 {
@@ -84,43 +714,35 @@
     
                 .main__text {
                     background-color: rgb(4, 0, 26);
-                    padding: 100px 50PX;
+                    padding: 70px 50px;
                     border-radius: 50px ;
                     box-shadow: 0px 0px 20px rgb(17, 0, 114);
-                    
                 }
             }
         }    
     }
-    
-
     // Fin - Sections
 
     // Inicio - Article 
-
     .container__article {
 
         .article {
 
             .article__info {    
                 & h4 {
-                font-size: 3rem;
+                font-size: 2.4rem;
                 }
         
                 & h5 {
-                font-size: 1.3rem;
+                font-size: 1.1rem;
                 padding: 0px 200px 0px 200px;
                 }
             }
         }
     }
-
-
     // Fin - Article
 
-
     // Inicio Footer 
-
     .footer {
         height: 60vh;
 
@@ -139,6 +761,7 @@
             display: flex;
             justify-content:space-around;
             flex-direction: row-reverse;
+            width: 100%;
         
             .container__ubicacion {
             display: inline;
@@ -220,13 +843,12 @@
         }        
     }
     // Fin - Footer
-    
 }
 
 @media screen and (min-width: 1400px) {
-
+    
     // Inicio - Navbar 
-     .nav__container {
+    .nav__container {
         margin: 0px;
         padding: 20px 40px;
 
@@ -238,48 +860,41 @@
         .nav-link {
             font-size: 1.3rem;
         }
-
     }
-    
     // Fin - Navbar
 
     // Inicio - Menu Principal
-
     .main {
         background-size: cover;
 
         .main__tittle {
         
             & h1 {
-                font-size: 4.6rem;
+                font-size: 3.7rem;
             }
     
             & h3 {
-                font-size: 3rem;
+                font-size: 2.3rem;
             }
-    
         }
-
     }   
-
     // Fin - Menu Principal
 
     // Inicio - Section
-
     .main__sec1-grid {
         
         .sec1 {
             height: 100vh;
         
             .main__sec1 {
-                padding: 150px;
+                padding: 120px;
     
                 & h3 {
-                    font-size: 3.5rem;
+                    font-size: 3rem;
                 }
         
                 & h4 {
-                    font-size: 1.5rem;
+                    font-size: 1.4rem;
                     padding: 10px 20px;
                     letter-spacing: 1px;
                 }
@@ -289,60 +904,51 @@
                     padding: 100px 50PX;
                     border-radius: 50px ;
                     box-shadow: 0px 0px 20px rgb(17, 0, 114);
-                    
                 }
-                
             }
         }    
     }
-    
-
     // Fin - Sections
 
     // Inicio - Article 
-
     .container__article {
 
         .article {
 
-            .article__info {
-    
+            .article__info {    
                 & h4 {
-                font-size: 3rem;
+                font-size: 2.6rem;
                 }
         
                 & h5 {
                 font-size: 1.3rem;
-                padding: 0px 300px 0px 300px;
+                padding: 0px 200px 0px 200px;
                 }
             }
         }
     }
-
-
     // Fin - Article
 
-
     // Inicio Footer 
-
     .footer {
-        height: auto;
+        height: 60vh;
 
         .footer__tittle {
             & h3 {
-                font-size: 2.3rem;
+                font-size: 2rem;
             }
 
             & h5 {
-                font-size: 1.3rem;
+                font-size: 0.9rem;
             }
 
         }
        
         .footer__container {
             display: flex;
-            justify-content:space-around;
+            justify-content: space-around;
             flex-direction: row-reverse;
+            width: 100%;
         
             .container__ubicacion {
             display: inline;
@@ -353,12 +959,12 @@
                 
                     & h5 {
                     display: inline-block;
-                    font-size: 1.6rem;
+                    font-size: 1.3rem;
                     }
 
                     & iframe {
-                        width: 380px;
-                        height: 230px;
+                        width: 320px;
+                        height: 200px;
                         margin-top: 3px;
                         margin-bottom: 20px;
                         box-shadow: 0px 0px 5px white;
@@ -366,7 +972,7 @@
 
                     & h6 {
                         display: inline-block;
-                        font-size: 1.4rem;
+                        font-size: 1.2rem;
                     }
                 }
             }
@@ -387,9 +993,16 @@
                 & h5 {
                     color: white;
                     font-family: 'Raleway', sans-serif;
-                    font-size: 1.6rem;
+                    font-size: 1.3rem;
                     text-shadow: 0px 0px 2px rgb(255, 255, 255);
                 }
+
+                & h6 {
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1.2rem;
+                    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+                }  
                 
                 .redes__icons {
                     margin-top: 15px;
@@ -398,30 +1011,21 @@
                     & a {
                         display: flex;
                         flex-direction: row;
-                        padding-left: 30px;
-                        padding-right: 30px;
+                        padding-left: 25px;
+                        padding-right: 25px;
                     }
 
                     & i {
-                        font-size: 1.4rem;
-                        width: 55px;
-                        height: 55px;
+                        font-size: 1.2rem;
+                        width: 45px;
+                        height: 45px;
                     }
 
                     & i:hover {
-                        width: 60px;
-                        height: 60px;
-                        box-shadow: 0px 0px 15px rgb(255, 255, 255);
-                        font-size: 1.6rem;
+                        box-shadow: 0px 0px 10px rgb(255, 255, 255);
+                        font-size: 1.4rem;
                     }
                 }
-
-                & h6 {
-                    color: white;
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 1.6rem;
-                    text-shadow: 0px 0px 2px rgb(255, 255, 255);
-                }   
             }
         }        
     }
