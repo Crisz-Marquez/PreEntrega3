@@ -1,3 +1,4 @@
+// Inicio Media Queries - Index.html
 @media screen and (min-width: 600px) {
 
     // Inicio - Navbar 
@@ -861,6 +862,7 @@
             font-size: 1.3rem;
         }
     }
+    
     // Fin - Navbar
 
     // Inicio - Menu Principal
@@ -931,7 +933,7 @@
 
     // Inicio Footer 
     .footer {
-        height: 60vh;
+        height: 50vh;
 
         .footer__tittle {
             & h3 {
@@ -939,9 +941,8 @@
             }
 
             & h5 {
-                font-size: 0.9rem;
+                font-size: 1.1rem;   
             }
-
         }
        
         .footer__container {
@@ -960,70 +961,73 @@
                     & h5 {
                     display: inline-block;
                     font-size: 1.3rem;
+                    padding-bottom: 15px;
                     }
 
                     & iframe {
-                        width: 320px;
+                        padding: 0;
+                        margin: 0;
+                        width: 350px;
                         height: 200px;
-                        margin-top: 3px;
-                        margin-bottom: 20px;
-                        box-shadow: 0px 0px 5px white;
+                        box-shadow: 0px 0px 15px rgb(0, 31, 48);
+                    }
+
+                    & iframe:hover {
+                        box-shadow: 0px 0px 20px rgb(0, 31, 48);
                     }
 
                     & h6 {
                         display: inline-block;
-                        font-size: 1.2rem;
+                        font-size: 1.3rem;
+                        padding-top: 15px;
                     }
                 }
             }
         }
     
         .container__redes {
-            display: inline-block;
+            display: flex;
             flex-direction: column;
         
             .footer__redes {
-                display: flex;
-                flex-direction: column;
                 align-items: center;
-                height: 30vh;
                 text-align: center;
                 justify-content: center;
 
                 & h5 {
-                    color: white;
-                    font-family: 'Raleway', sans-serif;
                     font-size: 1.3rem;
-                    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+                    font-weight: 500;
+                    color: rgb(79, 226, 255);
+                    text-shadow: 0px 0px 20px black;
                 }
 
                 & h6 {
-                    color: white;
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 1.2rem;
-                    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+                    font-size: 1.3rem;
+                    font-weight: 500;
+                    color: rgb(79, 226, 255);
+                    text-shadow: 0px 0px 20px black;
                 }  
                 
                 .redes__icons {
-                    margin-top: 15px;
+                    margin-top: 30px;
                     margin-bottom: 30px;
 
                     & a {
                         display: flex;
                         flex-direction: row;
-                        padding-left: 25px;
-                        padding-right: 25px;
+                        padding-left: 30px;
+                        padding-right: 30px;
                     }
 
                     & i {
-                        font-size: 1.2rem;
-                        width: 45px;
-                        height: 45px;
+                        font-size: 1.5rem;
+                        width: 65px;
+                        height: 65px;
                     }
 
-                    & i:hover {
-                        box-shadow: 0px 0px 10px rgb(255, 255, 255);
-                        font-size: 1.4rem;
+                    & i:hover {          
+                        font-size: 1.6rem;
+                        box-shadow: 0px 0px 20px rgb(79, 226, 255);
                     }
                 }
             }
@@ -1031,3 +1035,1494 @@
     }
     // Fin - Footer
 }
+// Fin Media Queries - Index.html
+
+// <--------------------> //
+
+// Inicio Media Queries - Turnos.html
+@media (min-width: 400px) and (max-width: 499px) {
+
+    // Inicio - Navbar 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 15px 15px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 5px;
+                
+                    .navbar-brand {
+                        font-size: 1.6rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.7rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                                padding-left: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin - Navbar
+
+    .main__content__turnos {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content__tittle__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            bottom: 270px;         
+
+            .main__tittle__turnos {
+                display: inline-block;
+                position: unset;
+                width: 50%;
+                margin-bottom: 20px;
+                padding: 0px;
+
+                & h1 {
+                    text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                    font-size: 3.2rem;
+                    font-family: 'Jost', sans-serif;
+                    text-align: center;
+                    font-weight: 600;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        
+            .main__text__turnos {
+                display: inline-block;
+                position: unset;
+                width: 90%;
+
+                & h3 {
+                    text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                    font-size: 1.3rem;
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 400;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+
+    // Inicio - Navbar 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 15px 15px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 5px;
+                
+                    .navbar-brand {
+                        font-size: 1.6rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.7rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                                padding-left: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin - Navbar
+
+    .main__content__turnos {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content__tittle__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            bottom: 270px;         
+
+            .main__tittle__turnos {
+                display: inline-block;
+                position: unset;
+                width: 50%;
+                margin-bottom: 20px;
+                padding: 0px;
+
+                & h1 {
+                    text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                    font-size: 3.2rem;
+                    font-family: 'Jost', sans-serif;
+                    text-align: center;
+                    font-weight: 600;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        
+            .main__text__turnos {
+                display: inline-block;
+                position: unset;
+                width: 90%;
+
+                & h3 {
+                    text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                    font-size: 1.3rem;
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 400;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+    // Inicio - Navbar 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 15px 15px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 5px;
+                
+                    .navbar-brand {
+                        font-size: 1.6rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.7rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                                padding-left: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin - Navbar
+
+    .main__content__turnos {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content__tittle__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            bottom: 270px;         
+
+            .main__tittle__turnos {
+                display: inline-block;
+                position: unset;
+                width: 50%;
+                margin-bottom: 20px;
+                padding: 0px;
+
+                & h1 {
+                    text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                    font-size: 3.2rem;
+                    font-family: 'Jost', sans-serif;
+                    text-align: center;
+                    font-weight: 600;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        
+            .main__text__turnos {
+                display: inline-block;
+                position: unset;
+                width: 90%;
+
+                & h3 {
+                    text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                    font-size: 1.3rem;
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 400;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 949px) {
+
+    // Inicio - Navbar 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 15px 15px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 5px;
+                
+                    .navbar-brand {
+                        font-size: 1.6rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.7rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin - Navbar
+
+    .main__content__turnos {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content__tittle__text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            bottom: 320px;         
+
+            .main__tittle__turnos {
+                display: inline-block;
+                position: unset;
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 0px;
+
+                & h1 {
+                    text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                    font-size: 3rem;
+                    font-family: 'Jost', sans-serif;
+                    text-align: center;
+                    font-weight: 600;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        
+            .main__text__turnos {
+                display: inline-block;
+                position: unset;
+                width: 90%;
+
+                & h3 {
+                    text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                    font-size: 1.5rem;
+                    font-family: 'Jost', sans-serif;
+                    font-weight: 400;
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+
+    // Inicio - Navbar 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 15px 15px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 5px;
+                
+                    .navbar-brand {
+                        font-size: 1.6rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.7rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin - Navbar
+
+    .main__content__turnos {
+        height: 100vh;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .main__tittle__turnos {
+            width: 57%;
+            position: absolute;
+            z-index: 10;
+            top: 190px;
+            left: 50px;
+            padding: 10px;
+        
+            & h1 {
+                text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                font-size: 4rem;
+                font-family: 'Jost', sans-serif;
+                padding: 0px 50px;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    
+        .main__text__turnos {
+            width: 65%;
+            position: absolute;
+            z-index: 10;
+            bottom: 260px;
+            right: 50px;
+            padding: 0px 50px;
+        
+            & h3 {
+                text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                font-size: 1.4rem;
+                font-family: 'Jost', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1050px) {
+
+    // Inicio - Navbar 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 15px 15px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 5px;
+                
+                    .navbar-brand {
+                        font-size: 1.6rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.7rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin - Navbar
+
+    .main__content__turnos {
+        height: 100vh;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .main__tittle__turnos {
+            width: 57%;
+            position: absolute;
+            z-index: 10;
+            top: 190px;
+            left: 50px;
+            padding: 10px;
+        
+            & h1 {
+                text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                font-size: 4.4rem;
+                font-family: 'Jost', sans-serif;
+                padding: 0px 50px;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    
+        .main__text__turnos {
+            width: 65%;
+            position: absolute;
+            z-index: 10;
+            bottom: 280px;
+            right: 50px;
+            padding: 0px 50px;
+        
+            & h3 {
+                text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                font-size: 1.4rem;
+                font-family: 'Jost', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    // Inicio - Navbar 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 20px 45px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 10px;
+                
+                    .navbar-brand {
+                        font-size: 1.7rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.8rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin - Navbar
+
+    .main__content__turnos {
+        height: 100vh;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .main__tittle__turnos {
+            width: 55%;
+            position: absolute;
+            z-index: 10;
+            top: 190px;
+            left: 80px;
+            padding: 10px;
+        
+            & h1 {
+                text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                font-size: 4.9rem;
+                font-family: 'Jost', sans-serif;
+                padding: 0px 50px;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    
+        .main__text__turnos {
+            width: 60%;
+            position: absolute;
+            z-index: 10;
+            bottom: 260px;
+            right: 100px;
+            padding: 0px 50px;
+        
+            & h3 {
+                text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                font-size: 1.4rem;
+                font-family: 'Jost', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    // Inicio NavBar - Turnos.html 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 20px 45px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 10px;
+                
+                    .navbar-brand {
+                        font-size: 1.7rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.8rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin NavBar - Turnos.html
+
+    // Inicio Main - Turnos.html
+    .main__content__turnos {
+        height: 100vh;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .main__tittle__turnos {
+            width: 60%;
+            position: absolute;
+            z-index: 10;
+            top: 195px;
+            left: 50px;
+            padding: 10px;
+        
+            & h1 {
+                text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                font-size: 5rem;
+                font-family:'Jost', sans-serif;
+                padding: 0px 100px;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    
+        .main__text__turnos {
+            width: 67%;
+            position: absolute;
+            z-index: 10;
+            bottom: 290px;
+            right: 100px;
+            padding: 0px 50px;
+        
+            & h3 {
+                text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                font-size: 1.5rem;
+                font-family: 'Jost', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+    // Fin Main - Turnos.html
+}
+
+@media screen and (min-width: 1650px) {
+
+    // Inicio NavBar - Turnos.html 
+    .header {
+        position: fixed;
+        z-index: 30;
+        width: 100%;
+        font-family: 'Jost', sans-serif;
+        opacity: 0.980;
+    
+        .nav__container {
+            margin: 0px;
+            padding: 20px 45px;
+    
+            .navbar {
+                margin: 0;
+                padding: 0;
+    
+                .container-fluid {
+                    background-color: #046aaa;
+                    box-shadow: 0px 0px 10px rgb(0, 85, 137);
+                    border-radius: 10px;
+                    padding: 10px;
+                
+                    .navbar-brand {
+                        font-size: 1.7rem;
+                        color: rgb(79, 226, 255);
+                        font-weight: 500;
+                        text-shadow: 0px 0px 30px black;
+                        padding-left: 20px;
+                        padding-bottom: 5px;
+    
+                        &:hover {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:focus {
+                            color: rgb(79, 226, 255);
+                            text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-toggler {
+                        background-color: rgb(79, 226, 255);
+                        font-size: 0.8rem;
+                        border: 1px solid rgb(79, 226, 255);
+                        box-shadow: 0px 0px 15px rgb(0, 62, 75);
+                        padding: 7px 9px;
+                        margin: 0;
+                        margin-right: 11px;
+    
+                        &:focus {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                            border: 1px solid rgb(79, 226, 255);
+                        }
+    
+                        &:hover {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 10px rgb(79, 226, 255);
+                        }
+    
+                        &:active {
+                            background-color: rgb(79, 226, 255);
+                            box-shadow: 0px 0px 5px rgb(79, 226, 255);
+                        }
+                    }
+    
+                    .navbar-collapse {
+                        margin: 0px;
+                      
+                        .navbar-nav {
+                            margin: 0px;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                            
+                            & li {
+                                padding-bottom: 0px;
+                                padding-right: 20px;
+                            }
+    
+                            .nav-link {
+                                display: inline-block;
+                                color: rgb(79, 226, 255);
+                                text-shadow: 0px 0px 15px black;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                                margin: 0px;
+                                padding: 0px;
+                            
+                                &:hover {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+    
+                                &:focus {
+                                    color: rgb(79, 226, 255);
+                                    text-shadow: 0px 0px 10px rgb(79, 226, 255);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Fin NavBar - Turnos.html
+
+    // Inicio Main - Turnos.html
+    .main__content__turnos {
+        height: 100vh;
+      
+        & img {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            z-index: 1;
+        }
+        
+        .main__tittle__turnos {
+            width: 55%;
+            position: absolute;
+            z-index: 10;
+            top: 195px;
+            left: 100px;
+            padding: 10px;
+        
+            & h1 {
+                text-shadow: 0px 0px 65px rgb(79, 226, 255);
+                font-size: 5.8rem;
+                font-family:'Jost', sans-serif;
+                padding: 0px 100px;
+                text-align: center;
+                font-weight: 600;
+            }
+        }
+    
+        .main__text__turnos {
+            width: 67%;
+            position: absolute;
+            z-index: 10;
+            bottom: 290px;
+            right: 100px;
+            padding: 0px 50px;
+        
+            & h3 {
+                text-shadow: 0px 0px 120px rgb(79, 226, 255);
+                font-size: 2rem;
+                font-family: 'Jost', sans-serif;
+                font-weight: 400;
+            }
+        }
+    }
+    // Fin Main - Turnos.html
+}
+// Fin Media Queries - Turnos.html

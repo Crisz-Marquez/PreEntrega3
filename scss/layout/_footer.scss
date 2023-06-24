@@ -1,10 +1,10 @@
 .footer {
-    background-image: radial-gradient(circle, rgb(3, 0, 17), rgb(3, 0, 20), rgb(4, 0, 26));
+    background-image: radial-gradient(circle, #046aaa, #045e95, #045282);
     position: relative;
     z-index: 25;
     height: auto;
-    box-shadow: 0px 0px 20px rgb(17, 0, 114);
-    font-family: 'Raleway', sans-serif;
+    box-shadow: 0px 0px 15px rgb(0, 85, 137);
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     margin: 0px;
     height: 75vh;
@@ -16,19 +16,20 @@
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
-        font-family: 'Julius Sans One', sans-serif;
         margin: 0px;
     
         & h3 {
             padding-top: 20px;
-            color: rgb(36, 209, 252);
-            text-shadow: 0px 0px 5px rgb(0, 98, 245);
+            color: rgb(79, 226, 255);
+            text-shadow: 0px 0px 55px black;
             font-size: 1.7rem;
             margin: 0px;
         }
 
         & h5 {
-            color: white;
+            color: rgb(0, 27, 32);
+            text-shadow: 0px 0px 55px black;
+            font-weight: 600;
             font-size: 0.7rem;
             margin: 0;
         }
@@ -44,42 +45,48 @@
         margin: 0px;
     
         & h5 {
-            color: white;
             font-size: 1rem;
-            text-shadow: 0px 0px 2px rgb(255, 255, 255);
+            font-weight: 500;
+            color: rgb(79, 226, 255);
+            text-shadow: 0px 0px 20px black;
             margin: 0px;
             padding-bottom: 10px;
         }
 
         & iframe {
             margin: 0px;
+            padding: 0px;
             width: 280px;
             height: 190px;
-            box-shadow: 0px 0px 5px rgb(253, 253, 253);
+            box-shadow: 0px 0px 15px rgb(0, 31, 48);
         
             & iframe:hover {
-                box-shadow: 0px 0px 10px rgb(253, 253, 253);
+                box-shadow: 0px 0px 15px rgb(0, 31, 48);
             }
         }
 
         & h6 {
             font-size: 1rem;
-            color: white;
-            text-shadow: 0px 0px 3px rgb(255, 255, 255);
-            padding-top: 10px;
+            font-weight: 500;
+            color: rgb(79, 226, 255);
+            text-shadow: 0px 0px 20px black;
             margin: 0px;
+            padding-top: 10px;
         }
     }
 
     .footer__redes {
         text-align: center;
         margin: 0px;
-        padding-top: 20px;
+        padding: 0px;
 
         & h5 {
-            color: white;
-            font-size: 1.2rem;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(79, 226, 255);
+            text-shadow: 0px 0px 20px black;
             margin: 0px;
+            padding: 0px;
         }
 
         & h6 {
@@ -105,8 +112,9 @@
 
             i {
                 background-color: rgb(0, 0, 0);
+                color: white;
+                box-shadow: 0px 0px 10px rgb(79, 226, 255);
                 font-size: 1rem;
-                color: rgb(255, 255, 255);
                 font-weight: 500px;
                 width: 40px;
                 height: 40px;
@@ -115,14 +123,12 @@
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                text-shadow: 0px 0px 40px white;
-                box-shadow: 0px 0px 5px rgb(255, 255, 255);
             }
 
             & i:hover {
                 width: 43px;
                 height: 43px;
-                box-shadow: 0px 0px 15px rgb(255, 255, 255);
+                text-shadow: 0px 0px 20px rgb(255, 255, 255);
                 font-size: 1.2rem;
             }
         }

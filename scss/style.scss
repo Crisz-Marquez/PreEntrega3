@@ -5,17 +5,12 @@
 // Components - navbar
 @import "./components/navbar";
 // Layout - menu principal
-@import "./components/main";
+@import "./layout/main";
 // components - sections
-@import "./components/sections";
+@import "./layout/sections";
 // components - articles
-@import "./components/articles";
+@import "./layout/articles";
 // Layout - Footer
-@import "./components/footer";
+@import "./layout/footer";
 // views - Media Queries
 @import "./views/queries";
-
-
-// PAGE - TURNOS
-@import "./components/page-turnos/main-turnos";
-@import "./views/quieries-turnos";
